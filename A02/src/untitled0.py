@@ -10,11 +10,12 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import sys
 
+
 if len(sys.argv) == 2:
-    img0 = sys.argv[1]
+     img0 = sys.argv[1]
 elif len(sys.argv)<2 :
-    cap=cv.VideoCapture(0)
-    a,img0= cap.read()
+     cap=cv.VideoCapture(0)
+     a,img0= cap.read()
 img=img0
 cap.release()
 
