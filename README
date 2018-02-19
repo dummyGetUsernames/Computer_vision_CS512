@@ -1,14 +1,34 @@
-A01- Implementing various matrix calculations and computations
+__________A01___________
+Implementing various matrix calculations and computations
 
-A02 - Responsible for various implementation and usage of various openCV functions and python functions using python 3.6. 
+__________A02___________
+Responsible for various implementation and usage of various openCV functions and python functions using python 3.6. 
 Some of the implementations and usage discussed are computer vision and image processing problems including capturing 
 standard images, live images, modifications and implementations of various OpenCV functions.
 
-A03- Responsible for implementation of Harris corner detection, localization for an image, and also for two 
+__________A03___________
+Responsible for implementation of Harris corner detection, localization for an image, and also for two 
 images(one be with the different viewpoint) feature detection and matching.
 
-A04- Responsible for implementation of non-coplanar camera calibration which also includes implementation of camera 
+__________A04___________
+Responsible for implementation of non-coplanar camera calibration which also includes implementation of camera 
 calibration for a noisy image with robust estimation to remove outliers using RANSAC.
 
-A05- Responsible for implementation of Epipolar lines on the two stereo images by inputting the point interactively 
+__________A05___________
+Responsible for implementation of Epipolar lines on the two stereo images by inputting the point interactively 
 capable to be performed on both the images.
+
+__________Project___________
+Content Based Image Retrieval
+Project descriptionThis project is about content-based image retrieval(CBIR) by extracting features like
+color and texture. 
+- Responsible for performing retrieval experiments were performed by developing a database of images and querying the image to retrieve the set of similar images.
+- Responsible for implementation of Color Feature which involved conversion to HSV color space and maps pixel intensities into an HSV cylinder using color histograms. 
+-Deciding the tradeoff between bins sizes of the histograms.
+- Defined a Global feature for each image in the database.
+- Defined a local color feature for each image in the database by dividing the image into segments and defining a global feature for each segment closely related to human visual
+perception.
+-Responsible for implementation of Texture Feature refers to visual patterns of an image.
+- Defined Co-occurrence matrix for each image in all directions.
+- Parameters taken into account were moment of inertia, Angular Second Moment, Correlation and Homogeneity.
+-Results showed that when both features are taken into account showed better results(precision = 2 ) independently both feature (precision = 5)
