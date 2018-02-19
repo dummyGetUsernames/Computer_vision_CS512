@@ -1,0 +1,14 @@
+A01- Implementing various matrix calculations and computations
+
+A02 - Responsible for various implementation and usage of various openCV functions and python functions using python 3.6. 
+Some of the implementations and usage discussed are computer vision and image processing problems including capturing 
+standard images, live images, modifications and implementations of various OpenCV functions.
+
+A03- Responsible for implementation of Harris corner detection, localization for an image, and also for two 
+images(one be with the different viewpoint) feature detection and matching.
+
+A04- Responsible for implementation of non-coplanar camera calibration which also includes implementation of camera 
+calibration for a noisy image with robust estimation to remove outliers using RANSAC.
+
+A05- Responsible for implementation of Epipolar lines on the two stereo images by inputting the point interactively 
+capable to be performed on both the images.
